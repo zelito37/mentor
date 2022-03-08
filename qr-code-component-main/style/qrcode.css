@@ -1,0 +1,52 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+body{
+        display: flex; 
+        width: 100%; 
+        height: 100vh;    
+        flex-direction: column;  
+        justify-content: center;
+        align-items: center;
+        background: hsl(212, 45%, 89%);
+    }
+.conteiner-card{
+        width: 250px;
+        background:hsl(0, 0%, 100%) ;        
+        border-radius: 5px;
+    }
+.img-card img{
+        width: 230px;
+        border-radius: 5px; 
+    }
+.img-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}    
+.titulos{
+    
+    }
+.titulo-card{
+    margin: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+.subtitulo-card{
+    color: hsl(220, 15%, 55%);
+    margin: 15px;
+    text-align: center;
+    font-size: .8rem;
+    font-family: 'Outfit', sans-serif;
+}
+.attribution{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    font-size: 11px;
+}
